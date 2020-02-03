@@ -1,0 +1,90 @@
+body {
+	background-image: url("geometry.png");
+	background-color: rgb(162, 170, 218);
+	font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	background: rgb(247, 247, 247);
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgb(0, 0, 0.1);
+}
+
+.completed {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.toggleform{
+    display: none;
+}
+
+
+h1 {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	background: rgb(41, 128, 185);
+	color: white;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	color: #666666;
+}
+
+li:nth-child(2n) {
+	background: rgb(247, 247, 247);
+}
+
+input {
+	font-size: 18px;
+	background-color: rgb(247, 247, 247);
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: rgb(41, 128, 185);
+	border: 3px solid rgb(0, 0, 0, 0);
+}
+
+#submit {
+    float: right;
+}
+
+input:focus {
+	background: rgb(247, 247, 247);
+	border: 3px solid rgb(41, 128, 185);
+	outline: none;
+}
+.fa-pencil-alt {
+	float: right;
+}
+
+span {
+	background-color: rgb(255, 0, 0);
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.4s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+
