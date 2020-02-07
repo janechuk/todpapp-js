@@ -6,7 +6,7 @@ body {
 
 #container {
 	background: rgb(247, 247, 247);
-	width: 360px;
+	width: 450px;
 	margin: 100px auto;
 	box-shadow: 0 0 3px rgb(0, 0, 0.1);
 }
@@ -70,9 +70,9 @@ input:focus {
 	float: right;
 }
 
-span {
+.fa-trash-alt {
 	background-color: rgb(255, 0, 0);
-	height: 40px;
+	height: 30px;
 	margin-right: 20px;
 	text-align: center;
 	color: white;
@@ -80,9 +80,12 @@ span {
 	display: inline-block;
 	transition: 0.4s linear;
 	opacity: 0;
+	padding-top: 10px;
+	
+	
 }
 
-li:hover span {
+li:hover .fa-trash-alt {
 	width: 40px;
 	opacity: 1.0;
 }
