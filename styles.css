@@ -58,7 +58,7 @@ input {
 }
 
 #submit {
-    float: right;
+	float: right;
 }
 
 input:focus {
@@ -90,4 +90,31 @@ li:hover .fa-trash-alt {
 	opacity: 1.0;
 }
 
+button {
+	background-color: rgb(41, 128, 185);
+	font-size: 16px;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 3px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 
+button:hover {
+    background-color: white;
+    color: #666666;
+    border: 2px solid rgb(41, 128, 185);
+}
+
+#buttons{
+    display:inline-block;
+    text-align:center;
+	margin-left:30%;
+    /* position:absolute; */
+    
+}
